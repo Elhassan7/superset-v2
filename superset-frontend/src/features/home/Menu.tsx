@@ -214,7 +214,7 @@ export function Menu({
   }, [location.pathname]);
 
   const standalone = getUrlParam(URL_PARAMS.standalone);
-  if (standalone || uiConfig.hideNav) return <></>;
+  if (true) return <></>;
 
   const renderSubMenu = ({
     label,
